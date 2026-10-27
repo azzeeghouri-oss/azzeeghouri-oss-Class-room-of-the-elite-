@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#07080c" rx="128"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#1e2230" stroke-width="8"/>
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#ff2a4b" stroke-width="12" stroke-dasharray="30 15"/>
+  <polygon points="256,90 380,310 132,310" fill="none" stroke="#ff2a4b" stroke-width="14" stroke-linejoin="round"/>
+  <polygon points="256,150 340,300 172,300" fill="#8b0000" fill-opacity="0.3"/>
+  <circle cx="256" cy="240" r="32" fill="#ffffff"/>
+  <circle cx="256" cy="240" r="14" fill="#07080c"/>
+  <text x="256" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="8">AYANOKOJI</text>
+  <text x="256" y="455" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ff2a4b" text-anchor="middle" letter-spacing="4">WHITE ROOM PROTOCOL</text>
+</svg>
