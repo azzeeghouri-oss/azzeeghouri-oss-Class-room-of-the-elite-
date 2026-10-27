@@ -28,11 +28,11 @@ jobs:
           npm run build
           npx cap sync android
 
-      - name: Setup Java 17
+      - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
 
       - name: Verify Java environment
         run: |
@@ -40,8 +40,8 @@ jobs:
           echo "JAVA_HOME: $JAVA_HOME"
           JAVA_MAJOR=$(java -version 2>&1 | head -n 1 | awk -F '"' '{print $2}' | awk -F '.' '{print $1}')
           echo "Detected Java major version: $JAVA_MAJOR"
-          if [ "$JAVA_MAJOR" -lt 17 ]; then
-            echo "Error: Java 17 or higher required."
+          if [ "$JAVA_MAJOR" -lt 21 ]; then
+            echo "Error: Java 21 or higher required."
             exit 1
           fi
 
