@@ -1,0 +1,6 @@
+{
+  "appId": "com.ayanokoji.system",
+  "appName": "Ayanokoji System",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

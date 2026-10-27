@@ -1,0 +1,6 @@
+{
+  "name": "Ayanokoji System",
+  "description": "White Room Protocol self-discipline dashboard with routine management, screen time budget timer, habit tracking, and victory streak calendar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
